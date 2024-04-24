@@ -1,4 +1,3 @@
-/* eslint-disable jest/require-hook */
 import getFullResponseFromAPI from './1-promise';
 
 console.log(getFullResponseFromAPI(true));
