@@ -1,3 +1,3 @@
-export default function getStudentsByLocation(cityList) {
-  return cityList.filter((students) => students.location.length > 9);
+export default function getStudentsByLocation(cityList , city) {
+  return cityList.filter((students) => students.location === city);
 }
